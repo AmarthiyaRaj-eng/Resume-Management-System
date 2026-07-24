@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alien+Block&family=Archivo+Black&family=BBH+Hegarty&family=BioRhyme+Expanded:wght@200;300;400;700;800&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Changa+One:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Science+Gothic:wght@100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Roboto mono" , monospace;
+}
+
+body{
+
+    background:#e5e7eb;
+
+    padding:40px;
+
+}
+
+.resume{
+
+    width:210mm;
+
+    min-height:297mm;
+
+    margin:auto;
+
+    background:white;
+
+    padding:45px;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.header{
+
+    text-align:center;
+
+    border-bottom:3px solid #1f1f1f;
+
+    padding-bottom:20px;
+
+    margin-bottom:30px;
+
+}
+
+
+.header h1{
+
+    font-size:40px;
+
+    color:#1f2937;
+
+    letter-spacing:1px;
+
+}
+
+
+.contact{
+
+    margin-top:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+
+.contact p{
+
+    color:#555;
+
+    font-size:14px;
+
+}
+
+section{
+
+    margin-bottom:35px;
+
+}
+
+
+section h2{
+
+    color:#1f1f1f;
+
+    font-size:22px;
+
+    border-bottom:2px solid #1f1f1f;
+
+    padding-bottom:8px;
+
+    margin-bottom:18px;
+
+}
+
+
+ul{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    list-style:none;
+
+}
+
+
+ul li{
+
+    background:#1f1f1f;
+
+    color:white;
+
+    padding:8px 16px;
+
+    border-radius:25px;
+
+    font-size:14px;
+
+}
+
+
+.card{
+
+    border-left:5px solid #1f1f1f;
+
+    background:#f9fafb;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    margin-bottom:18px;
+
+    transition:.3s;
+
+}
+
+
+.card:hover{
+
+    transform:translateX(5px);
+
+    box-shadow:
+        0 8px 18px rgba(0,0,0,.08);
+
+}
+
+
+.card h3{
+
+    color:#111827;
+
+    margin-bottom:10px;
+
+}
+
+
+.card p{
+
+    color:#4b5563;
+
+    line-height:1.7;
+
+    margin-bottom:8px;
+
+}
+
+
+a{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    height: 50px;
+    width: 150px;
+    border: none;
+
+    color: aliceblue;
+    background-color: #1f1f1f;
+
+    border-radius: 15px;
+}

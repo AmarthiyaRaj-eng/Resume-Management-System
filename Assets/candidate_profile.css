@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alien+Block&family=Archivo+Black&family=BBH+Hegarty&family=BioRhyme+Expanded:wght@200;300;400;700;800&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Changa+One:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Science+Gothic:wght@100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"roboto mono" , monospace;
+
+}
+
+
+body{
+
+    background:#f3f4f6;
+
+    padding:40px;
+
+}
+
+
+
+.profile-container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+
+.profile-header{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    box-shadow: 6px 6px 0 #1f1f1f;
+    border: 2px solid #1f1f1f;
+
+    margin-bottom:30px;
+
+}
+
+
+.profile-header h1{
+
+    font-size:34px;
+
+    color:#111827;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.profile-header p{
+
+    color:#6b7280;
+
+    margin:5px 0;
+
+}
+
+
+
+.links{
+
+    margin-top:15px;
+
+}
+
+
+
+.links a{
+
+    text-decoration:none;
+
+    color:#1f1f1f;
+
+    margin-right:20px;
+
+    font-weight:500;
+
+}
+
+
+
+section{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    margin-bottom:25px;
+
+    border: 2px solid #1f1f1f;
+    box-shadow: 6px 6px 0 #1f1f1f;
+
+}
+
+
+
+section h2{
+
+    font-size:25px;
+
+    color:#111827;
+
+    margin-bottom:20px;
+
+    border-bottom:2px solid #e5e7eb;
+
+    padding-bottom:10px;
+
+}
+
+
+
+.card{
+
+    background:#f9fafb;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+
+    border-left:5px solid #1f1f1f;
+
+}
+
+
+
+.card h3{
+
+    color:#111827;
+
+    margin-bottom:8px;
+
+    font-size:20px;
+
+}
+
+
+
+.card h4{
+
+    color:#1f1f1f;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.card p{
+
+    color:#4b5563;
+
+    line-height:1.6;
+
+    margin:5px 0;
+
+}
+
+
+
+.card a{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    margin-right:15px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#1f1f1f;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+}
+
+
+
+.skill-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+
+
+.skill{
+
+    background:#eff6ff;
+
+    border:1px solid #bfdbfe;
+
+    padding:12px 18px;
+
+    border-radius:30px;
+
+    display:flex;
+
+    gap:10px;
+
+    align-items:center;
+
+}
+
+
+
+.skill span{
+
+    color:#1f1f1f;
+
+    font-weight:600;
+
+}
+
+
+
+.skill small{
+
+    background:#1f1f1f;
+
+    color:white;
+
+    padding:4px 10px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+}
+
+
+
+@media(max-width:700px){
+
+
+body{
+
+    padding:20px;
+
+}
+
+
+.profile-header{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.profile-header h1{
+
+    font-size:26px;
+
+}
+
+
+section{
+
+    padding:20px;
+
+}
+
+
+.skill-container{
+
+    flex-direction:column;
+
+}
+
+
+
+}

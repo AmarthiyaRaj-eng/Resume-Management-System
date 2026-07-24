@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alien+Block&family=Archivo+Black&family=BBH+Hegarty&family=BioRhyme+Expanded:wght@200;300;400;700;800&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Changa+One:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Science+Gothic:wght@100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"roboto mono" , monospace;
+
+}
+
+
+body{
+
+    min-height:100vh;
+
+    background:#f3f4f6;
+
+    padding:40px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.edit-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:50px;
+    
+    border-radius:20px;
+    
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    
+    gap: 25px;
+}
+
+.edit-container h2{
+    
+    text-align:center;
+    
+    font-size:30px;
+
+    color:#111827;
+
+    margin-bottom:30px;
+
+}
+
+.form-group{
+    
+    margin-bottom:30px;
+    
+}
+
+
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    color:#374151;
+    
+    font-weight:600;
+    
+    gap: 25px;
+}
+
+
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 4px rgba(37,99,235,.12);
+
+}
+
+
+
+textarea{
+
+    min-height:120px;
+
+    resize:vertical;
+
+}
+
+.edit-section{
+
+    background:#f9fafb;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:40px;
+
+    border:1px solid #e5e7eb;
+
+}
+
+
+
+.edit-section h3{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+.item-box{
+
+    background: #1f1f1f;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    border:1px solid #e5e7eb;
+
+    margin-bottom:30px;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:30px;
+
+}
+
+
+
+button{
+
+    flex:1;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background-color: #1f1f1f;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.save-btn{
+
+    background:#16a34a;
+
+}
+
+
+
+.cancel-btn{
+
+    background:#6b7280;
+
+}
+
+
+
+.add-btn{
+
+    background:#2563eb;
+
+}
+
+
+
+.delete-btn{
+
+    background:#dc2626;
+
+}
+
+
+
+button:hover{
+
+    transform:translateY(-2px);
+
+    opacity:.9;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+}
+
+
+
+@media(max-width:700px){
+
+
+body{
+
+    padding:20px;
+
+}
+
+
+.edit-container{
+
+    padding:25px;
+
+}
+
+
+.buttons{
+
+    flex-direction:column;
+
+}
+
+}
+
+form {
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
